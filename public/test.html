@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .info-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 { color: #667eea; }
+        code {
+            background: #e3f2fd;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .success { color: #4caf50; font-weight: bold; }
+        .links { margin-top: 30px; }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="info-box">
+        <h1>🎉 Server läuft erfolgreich!</h1>
+        <p class="success">✓ PHP Server ist aktiv auf Port 8080</p>
+
+        <h3>📍 Deine aktuelle URL:</h3>
+        <p><code id="currentUrl">Wird geladen...</code></p>
+
+        <h3>🔗 Verfügbare Seiten:</h3>
+        <div class="links">
+            <a href="/public/demo-info.html">Demo Info</a>
+            <a href="/public/signin.html">Login</a>
+            <a href="/api/mock-server.php">API Test</a>
+        </div>
+
+        <h3>💡 Anleitung:</h3>
+        <p>Wenn du diese Seite siehst, funktioniert der Server! Die URL in deiner Browser-Adressleiste ist dein <strong>External Link</strong>.</p>
+        <p>Speichere diese URL oder teile sie, um von überall auf die Demo zugreifen zu können.</p>
+    </div>
+
+    <script>
+        document.getElementById('currentUrl').textContent = window.location.href;
+    </script>
+</body>
+</html>
