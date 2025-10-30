@@ -28,6 +28,7 @@ $allowedPages = [
     'todo',
     'chat',
     'blog',
+    'blog-details',
     'contact',
     'calendar',
     'file-manager',
@@ -35,7 +36,24 @@ $allowedPages = [
     'form',
     'table',
     'faq',
-    'pricing'
+    'pricing',
+    'badge',
+    'blank',
+    'button',
+    'color',
+    'coming-soon',
+    'error',
+    'icon',
+    'kanban',
+    'maintenance',
+    'navigation',
+    'signin',
+    'signup',
+    'forgot-password',
+    'verification',
+    'terms',
+    'testimonial',
+    'typography'
 ];
 
 // Prüfen ob Seite erlaubt ist
