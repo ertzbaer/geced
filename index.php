@@ -5,7 +5,14 @@
  * Nur der <main>-Inhalt wird dynamisch über AJAX geladen
  */
 
-require_once 'config/database.php';
+// Optionales Laden der Datenbank
+if (file_exists('config/database.php')) {
+    try {
+        require_once 'config/database.php';
+    } catch (Exception $e) {
+        // Datenbank nicht verfügbar
+    }
+}
 
 // Session starten (für Benutzer-Authentication)
 session_start();
