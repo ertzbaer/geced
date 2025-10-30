@@ -1,71 +1,32 @@
-/* Custom CSS Fix für PHP Template Layout - Original-konform */
+/* Custom CSS Fix für PHP Template Layout - MINIMAL Eingriffe */
 
-/* Main Container mit Original Padding */
+/* Main Container - NUR Min-Height setzen, Rest Original lassen */
 .geex-main-content {
-    padding-inline-start: 380px !important;
     min-height: calc(100vh - 100px);
-    display: flex !important;
-    gap: 50px !important;
 }
 
-/* Sidebar fixed (wie im Original) - MINIMAL Änderungen */
+/* Sidebar - NUR sicherstellen dass sie sichtbar ist */
 .geex-sidebar {
     /* Behalte Original-Positionierung */
     top: 22px !important;
     height: calc(100vh - 44px) !important;
 }
 
-/* Content: MUSS vollen Raum nutzen */
-.geex-content {
-    flex: 1 !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-}
+/* Content - Lass Original CSS arbeiten */
+/* KEINE Überschreibungen - Original funktioniert! */
 
-/* Customizer fixed außerhalb des Flows */
+/* Customizer - Lass Original CSS arbeiten */
 .geex-customizer {
-    position: fixed !important;
-    right: -400px !important;
-    top: 0 !important;
-    width: 400px !important;
-    height: 100vh !important;
-    z-index: 10000 !important;
-    transition: right 0.3s ease !important;
-    display: block !important; /* Immer anzeigen aber außerhalb */
-}
-
-.geex-customizer.show {
-    right: 0 !important;
+    /* position: fixed ist schon im Original */
 }
 
 .geex-customizer-overlay {
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    background: rgba(0,0,0,0.5) !important;
-    z-index: 9999 !important;
-    display: none !important;
+    /* Original hat bereits die richtigen Styles */
 }
 
-.geex-customizer-overlay.show {
-    display: block !important;
-}
-
-/* Responsive - Mobile */
+/* Responsive - Nur bei Bedarf */
 @media (max-width: 991px) {
-    .geex-main-content {
-        padding-inline-start: 0 !important;
-    }
-    
     .geex-sidebar {
-        left: -100%;
         transition: left 0.3s ease;
-    }
-    
-    .geex-sidebar.show {
-        left: 0;
     }
 }
