@@ -7,11 +7,11 @@
     <title>Geex Dashboard - PHP Template</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/vendor/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="assets/vendor/css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.27.0/dist/apexcharts.min.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.svg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
     
     <script>
