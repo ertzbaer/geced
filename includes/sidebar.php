@@ -5,8 +5,8 @@
     <div class="geex-sidebar__wrapper">
         <div class="geex-sidebar__header">
             <a href="#" data-page="dashboard" class="geex-sidebar__logo page-link">
-                <img class="logo-lite" src="../assets/img/logo-dark.svg" alt="logo" />
-                <img class="logo-dark" src="../assets/img/logo-lite.svg" alt="logo" />
+                <img class="logo-lite" src="assets/img/logo-dark.svg" alt="logo" />
+                <img class="logo-dark" src="assets/img/logo-lite.svg" alt="logo" />
             </a>
         </div>
         <nav class="geex-sidebar__menu-wrapper">
