@@ -1,0 +1,21 @@
+{
+    "name": "geex/php-template",
+    "description": "Geex Admin Dashboard - PHP Template mit AJAX-Loading",
+    "type": "project",
+    "keywords": ["dashboard", "admin", "template", "php", "ajax"],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Geex\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
