@@ -1,32 +1,44 @@
-/* Custom CSS Fix für PHP Template Layout - MINIMAL Eingriffe */
+/* Custom CSS Fix für PHP Template Layout - Richtige Lösung */
 
-/* Main Container - NUR Min-Height setzen, Rest Original lassen */
+/* Main Container - Flexbox wie im Original */
 .geex-main-content {
-    min-height: calc(100vh - 100px);
+    display: flex !important;
+    padding: 22px !important;
+    padding-inline-start: 22px !important;
 }
 
-/* Sidebar - NUR sicherstellen dass sie sichtbar ist */
+/* Sidebar - Fixed Position (aus dem Flow) */
 .geex-sidebar {
-    /* Behalte Original-Positionierung */
+    position: fixed !important;
     top: 22px !important;
+    inset-inline-start: 22px !important;
+    width: 340px !important;
+    max-width: 20% !important;
     height: calc(100vh - 44px) !important;
+    z-index: 999 !important;
 }
 
-/* Content - Lass Original CSS arbeiten */
-/* KEINE Überschreibungen - Original funktioniert! */
-
-/* Customizer - Lass Original CSS arbeiten */
+/* Customizer - Fixed Position außerhalb */
 .geex-customizer {
-    /* position: fixed ist schon im Original */
+    position: fixed !important;
+    right: -400px !important;
+    top: 0 !important;
+    width: 400px !important;
+    height: 100vh !important;
+    z-index: 10000 !important;
 }
 
-.geex-customizer-overlay {
-    /* Original hat bereits die richtigen Styles */
+/* Content - Nimmt VOLLEN Rest-Raum */
+.geex-content {
+    flex: 1 !important;
+    width: 100% !important;
+    margin-left: 380px !important;
+    padding: 0 !important;
 }
 
-/* Responsive - Nur bei Bedarf */
+/* Responsive */
 @media (max-width: 991px) {
-    .geex-sidebar {
-        transition: left 0.3s ease;
+    .geex-content {
+        margin-left: 0 !important;
     }
 }
