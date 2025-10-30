@@ -22,14 +22,20 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'dashboard';
 // Erlaubte Seiten (Whitelist für Sicherheit)
 $allowedPages = [
     'dashboard',
-    'server',
     'banking',
+    'crypto',
+    'invoicing',
     'todo',
     'chat',
     'blog',
-    'blog-detail',
     'contact',
-    'calendar'
+    'calendar',
+    'file-manager',
+    'chart',
+    'form',
+    'table',
+    'faq',
+    'pricing'
 ];
 
 // Prüfen ob Seite erlaubt ist
