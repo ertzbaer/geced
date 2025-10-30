@@ -1,0 +1,42 @@
+/* Custom CSS Fix für PHP Template Layout */
+
+/* Fix 1: Main Container muss volle Höhe haben */
+.geex-main-content {
+    min-height: 100vh;
+    height: auto;
+}
+
+/* Fix 2: Content muss Platz für fixed Sidebar lassen */
+.geex-content {
+    margin-left: 384px !important;
+    width: calc(100% - 384px) !important;
+    max-width: none !important;
+}
+
+/* Fix 3: Wenn Sidebar collapsed ist */
+.geex-sidebar.collapsed ~ .geex-content {
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+
+/* Fix 4: Customizer bleibt fixed rechts */
+.geex-customizer {
+    position: fixed;
+    right: -400px;
+    top: 0;
+    height: 100vh;
+    z-index: 9999;
+    transition: right 0.3s ease;
+}
+
+.geex-customizer.show {
+    right: 0;
+}
+
+/* Fix 5: Responsive - Mobile */
+@media (max-width: 991px) {
+    .geex-content {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+}
