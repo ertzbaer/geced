@@ -30,8 +30,9 @@
 
 /* Content - Nimmt VOLLEN Rest-Raum */
 .geex-content {
-    flex: 1 !important;
-    width: 100% !important;
+    flex: 1 1 auto !important;
+    min-width: 1000px !important;
+    width: calc(100vw - 450px) !important;
     margin-left: 380px !important;
     padding: 0 !important;
 }
