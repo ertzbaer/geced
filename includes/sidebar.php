@@ -230,3 +230,4 @@
 			<p class="geex-sidebar__footer__author">Made with <span class="heart-icon">♥</span> by <a href="#">ThemeWant</a></p>
         </div>
 	</div>
+</div>
