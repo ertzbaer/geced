@@ -22,8 +22,26 @@ try {
     ")->fetchAll();
     
 } catch (Exception $e) {
-    $todos = [];
-    $error = $e->getMessage();
+    // Dummy-Daten wenn DB nicht verfügbar
+    $todos = [
+        [
+            'title' => 'PHP-Template testen',
+            'description' => 'Alle Funktionen des dynamischen Templates überprüfen',
+            'username' => 'Demo User',
+            'priority' => 'high',
+            'status' => 'pending',
+            'due_date' => date('Y-m-d', strtotime('+3 days'))
+        ],
+        [
+            'title' => 'Datenbank konfigurieren',
+            'description' => 'MySQL-Verbindung in config/database.php einrichten',
+            'username' => 'Admin',
+            'priority' => 'medium',
+            'status' => 'in_progress',
+            'due_date' => date('Y-m-d', strtotime('+1 week'))
+        ]
+    ];
+    $error = null;
 }
 
 // Status-Badge-Klassen
