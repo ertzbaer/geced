@@ -34,7 +34,8 @@
     min-width: 1000px !important;
     width: calc(100vw - 450px) !important;
     margin-left: 380px !important;
-    padding: 0 !important;
+    padding: 30px !important;
+    padding-top: 0 !important;
 }
 
 /* Responsive */
