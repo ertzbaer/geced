@@ -36,6 +36,7 @@
     height: 100vh !important;
     z-index: 10000 !important;
     transition: right 0.3s ease !important;
+    display: block !important; /* Immer anzeigen aber außerhalb */
 }
 
 .geex-customizer.show {
