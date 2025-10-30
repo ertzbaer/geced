@@ -4,6 +4,7 @@
  * Zeigt Übersicht mit Statistiken und Daten aus der Datenbank
  */
 
+// Verwende Dummy-Daten, falls DB nicht verfügbar
 try {
     $db = Database::getInstance();
     
@@ -14,9 +15,9 @@ try {
     
 } catch (Exception $e) {
     // Falls DB-Verbindung fehlschlägt, Dummy-Daten verwenden
-    $userCount = 0;
-    $postCount = 0;
-    $todoCount = 0;
+    $userCount = 12;
+    $postCount = 8;
+    $todoCount = 5;
 }
 ?>
 
