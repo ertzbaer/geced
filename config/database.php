@@ -11,9 +11,18 @@ define('DB_NAME', 'geex_dashboard');
 
 class Database {
     private static $instance = null;
-    private $connection;
+    private $connection = null;
+    private $connected = false;
     
     private function __construct() {
+        // Keine sofortige Verbindung - erst bei Bedarf
+    }
+    
+    private function connect() {
+        if ($this->connected) {
+            return;
+        }
+        
         try {
             $this->connection = new PDO(
                 "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8mb4",
@@ -25,8 +34,9 @@ class Database {
                     PDO::ATTR_EMULATE_PREPARES => false
                 ]
             );
+            $this->connected = true;
         } catch(PDOException $e) {
-            die("Datenbankverbindung fehlgeschlagen: " . $e->getMessage());
+            throw new Exception("Datenbankverbindung fehlgeschlagen: " . $e->getMessage());
         }
     }
     
@@ -38,10 +48,12 @@ class Database {
     }
     
     public function getConnection() {
+        $this->connect();
         return $this->connection;
     }
     
     public function query($sql, $params = []) {
+        $this->connect();
         $stmt = $this->connection->prepare($sql);
         $stmt->execute($params);
         return $stmt;
