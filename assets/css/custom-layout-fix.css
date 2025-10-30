@@ -1,44 +1,63 @@
-/* Custom CSS Fix für PHP Template Layout - Behalte Original Fixed Sidebar */
+/* Custom CSS Fix für PHP Template Layout - Original-konform */
 
-/* Stelle sicher, dass Main-Content das Original-Padding hat */
+/* Main Container mit Original Padding */
 .geex-main-content {
     padding-inline-start: 380px !important;
     min-height: calc(100vh - 100px);
+    display: flex !important;
+    gap: 50px !important;
 }
 
-/* Sidebar bleibt fixed (wie im Original) */
+/* Sidebar fixed (wie im Original) */
 .geex-sidebar {
     position: fixed !important;
     left: 0;
     top: 80px;
-    width: 380px;
+    width: 380px !important;
     height: calc(100vh - 80px);
     z-index: 999;
+    overflow-y: auto;
 }
 
-/* Content nimmt vollen verfügbaren Raum */
+/* Content: MUSS vollen Raum nutzen */
 .geex-content {
+    flex: 1 !important;
     width: 100% !important;
-    max-width: none !important;
-    flex: 1 1 auto !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
 }
 
-/* Customizer fixed rechts */
+/* Customizer fixed außerhalb des Flows */
 .geex-customizer {
     position: fixed !important;
-    right: -400px;
-    top: 0;
-    width: 400px;
-    height: 100vh;
-    z-index: 9999;
-    transition: right 0.3s ease;
+    right: -400px !important;
+    top: 0 !important;
+    width: 400px !important;
+    height: 100vh !important;
+    z-index: 10000 !important;
+    transition: right 0.3s ease !important;
 }
 
 .geex-customizer.show {
     right: 0 !important;
 }
 
-/* Mobile */
+.geex-customizer-overlay {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: rgba(0,0,0,0.5) !important;
+    z-index: 9999 !important;
+    display: none !important;
+}
+
+.geex-customizer-overlay.show {
+    display: block !important;
+}
+
+/* Responsive - Mobile */
 @media (max-width: 991px) {
     .geex-main-content {
         padding-inline-start: 0 !important;
