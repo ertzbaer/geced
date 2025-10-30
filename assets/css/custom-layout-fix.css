@@ -8,15 +8,11 @@
     gap: 50px !important;
 }
 
-/* Sidebar fixed (wie im Original) */
+/* Sidebar fixed (wie im Original) - MINIMAL Änderungen */
 .geex-sidebar {
-    position: fixed !important;
-    left: 0;
-    top: 80px;
-    width: 380px !important;
-    height: calc(100vh - 80px);
-    z-index: 999;
-    overflow-y: auto;
+    /* Behalte Original-Positionierung */
+    top: 22px !important;
+    height: calc(100vh - 44px) !important;
 }
 
 /* Content: MUSS vollen Raum nutzen */
