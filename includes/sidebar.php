@@ -222,7 +222,91 @@
 						</li>
 					</ul>
 				</li>
-			</ul>
+			
+				<li class="geex-sidebar__menu__item has-children">
+					<a href="#" class="geex-sidebar__menu__link">
+						<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.41667 0H3.66667C2.69421 0 1.76158 0.386308 1.07394 1.07394C0.386308 1.76158 0 2.69421 0 3.66667L0 6.41667C0 7.38913 0.386308 8.32176 1.07394 9.00939C1.76158 9.69702 2.69421 10.0833 3.66667 10.0833H6.41667C7.38913 10.0833 8.32176 9.69702 9.00939 9.00939C9.69702 8.32176 10.0833 7.38913 10.0833 6.41667V3.66667C10.0833 2.69421 9.69702 1.76158 9.00939 1.07394C8.32176 0.386308 7.38913 0 6.41667 0V0ZM8.25 6.41667C8.25 6.9029 8.05684 7.36921 7.71303 7.71303C7.36921 8.05684 6.9029 8.25 6.41667 8.25H3.66667C3.18044 8.25 2.71412 8.05684 2.3703 7.71303C2.02649 7.36921 1.83333 6.9029 1.83333 6.41667V3.66667C1.83333 3.18044 2.02649 2.71412 2.3703 2.3703C2.71412 2.02649 3.18044 1.83333 3.66667 1.83333H6.41667C6.9029 1.83333 7.36921 2.02649 7.71303 2.3703C8.05684 2.71412 8.25 3.18044 8.25 3.66667V6.41667Z" fill="#B9BBBD"/>
+						</svg>							
+						<span>Components</span>
+					</a>  
+					<ul class="geex-sidebar__submenu">
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="badge" class="geex-sidebar__menu__link page-link">Badge</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="button" class="geex-sidebar__menu__link page-link">Button</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="color" class="geex-sidebar__menu__link page-link">Color</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="icon" class="geex-sidebar__menu__link page-link">Icon</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="navigation" class="geex-sidebar__menu__link page-link">Navigation</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="typography" class="geex-sidebar__menu__link page-link">Typography</a>
+						</li>
+					</ul>
+				</li>
+				<li class="geex-sidebar__menu__item has-children">
+					<a href="#" class="geex-sidebar__menu__link">
+						<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M19.25 0H2.75C2.02065 0 1.32118 0.289731 0.805456 0.805456C0.289731 1.32118 0 2.02065 0 2.75V19.25C0 19.9793 0.289731 20.6788 0.805456 21.1945C1.32118 21.7103 2.02065 22 2.75 22H19.25C19.9793 22 20.6788 21.7103 21.1945 21.1945C21.7103 20.6788 22 19.9793 22 19.25V2.75C22 2.02065 21.7103 1.32118 21.1945 0.805456C20.6788 0.289731 19.9793 0 19.25 0V0ZM20.1667 19.25C20.1667 19.4931 20.0701 19.7263 19.8982 19.8982C19.7263 20.0701 19.4931 20.1667 19.25 20.1667H2.75C2.50688 20.1667 2.27374 20.0701 2.10182 19.8982C1.92991 19.7263 1.83333 19.4931 1.83333 19.25V2.75C1.83333 2.50688 1.92991 2.27374 2.10182 2.10182C2.27374 1.92991 2.50688 1.83333 2.75 1.83333H19.25C19.4931 1.83333 19.7263 1.92991 19.8982 2.10182C20.0701 2.27374 20.1667 2.50688 20.1667 2.75V19.25Z" fill="#B9BBBD"/>
+						</svg>							
+						<span>Pages</span>
+					</a>  
+					<ul class="geex-sidebar__submenu">
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="blank" class="geex-sidebar__menu__link page-link">Blank Page</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="coming-soon" class="geex-sidebar__menu__link page-link">Coming Soon</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="error" class="geex-sidebar__menu__link page-link">Error 404</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="maintenance" class="geex-sidebar__menu__link page-link">Maintenance</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="terms" class="geex-sidebar__menu__link page-link">Terms</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="testimonial" class="geex-sidebar__menu__link page-link">Testimonial</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="kanban" class="geex-sidebar__menu__link page-link">Kanban</a>
+						</li>
+					</ul>
+				</li>
+				<li class="geex-sidebar__menu__item has-children">
+					<a href="#" class="geex-sidebar__menu__link">
+						<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M11 0C4.92492 0 0 4.92492 0 11C0 17.0751 4.92492 22 11 22C17.0751 22 22 17.0751 22 11C22 4.92492 17.0751 0 11 0ZM11 20.1667C5.94076 20.1667 1.83333 16.0592 1.83333 11C1.83333 5.94076 5.94076 1.83333 11 1.83333C16.0592 1.83333 20.1667 5.94076 20.1667 11C20.1667 16.0592 16.0592 20.1667 11 20.1667Z" fill="#B9BBBD"/>
+							<path d="M11.9167 5.5H10.0833V12.8333H11.9167V5.5Z" fill="#B9BBBD"/>
+							<path d="M11.9167 14.6667H10.0833V16.5H11.9167V14.6667Z" fill="#B9BBBD"/>
+						</svg>							
+						<span>Authentication</span>
+					</a>  
+					<ul class="geex-sidebar__submenu">
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="signin" class="geex-sidebar__menu__link page-link">Sign In</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="signup" class="geex-sidebar__menu__link page-link">Sign Up</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="forgot-password" class="geex-sidebar__menu__link page-link">Forgot Password</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="verification" class="geex-sidebar__menu__link page-link">Verification</a>
+						</li>
+					</ul>
+				</li>
+</ul>
 		</nav>
         <div class="geex-sidebar__footer">
 			<span class="geex-sidebar__footer__title">Geex Modern Dashboard</span>
