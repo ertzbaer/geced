@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geex PHP Template - Willkommen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px;
+            max-width: 800px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #667eea;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 1.3em;
+            margin-bottom: 40px;
+        }
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        .btn {
+            padding: 18px 40px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 3px solid #667eea;
+        }
+        .btn-secondary:hover {
+            background: #667eea;
+            color: white;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+        }
+        .feature-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .feature h3 {
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .feature p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .stats {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Geex PHP Template</h1>
+        <p class="subtitle">Vollständiges Admin-Dashboard mit AJAX-Loading</p>
+        
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">34</div>
+                <div class="stat-label">Seiten</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Original</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">0</div>
+                <div class="stat-label">Fehler</div>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <a href="index.php" class="btn btn-primary">
+                🎯 Dashboard öffnen
+            </a>
+            <a href="PAGES_OVERVIEW.html" class="btn btn-secondary">
+                📋 Alle Seiten ansehen
+            </a>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3>AJAX-Loading</h3>
+                <p>Keine Page-Reloads, superschnell</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📱</div>
+                <h3>Responsive</h3>
+                <p>Funktioniert auf allen Geräten</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎨</div>
+                <h3>Original Design</h3>
+                <p>100% Geex Template</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <h3>Sicher</h3>
+                <p>Prepared Statements, Whitelist</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Geex PHP Template v1.0</strong></p>
+            <p>Schnellstart: <a href="QUICKSTART.md" style="color: #667eea;">QUICKSTART.md</a> | 
+               Dokumentation: <a href="README_COMPLETE.md" style="color: #667eea;">README_COMPLETE.md</a></p>
+        </div>
+    </div>
+    
+    <script>
+        // Auto-redirect nach 3 Sekunden (optional)
+        // setTimeout(() => window.location.href = 'index.php', 3000);
+    </script>
+</body>
+</html>
