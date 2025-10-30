@@ -59,8 +59,8 @@
         <div class="geex-header__wrapper">
             <div class="geex-header__logo-wrapper">
                 <a href="#" data-page="dashboard" class="geex-header__logo page-link">
-                    <img class="logo-lite" src="assets/img/logo-dark.svg" alt="Header logo" />
-                    <img class="logo-dark" src="assets/img/logo-lite.svg" alt="Header logo" />
+                    <img class="logo-lite" src="assets/logo-dark.svg" alt="Header logo" />
+                    <img class="logo-dark" src="assets/logo-lite.svg" alt="Header logo" />
                 </a>
             </div>
             <nav class="geex-header__menu-wrapper">
