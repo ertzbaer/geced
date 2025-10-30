@@ -1,0 +1,55 @@
+# PHP
+*.log
+*.cache
+vendor/
+composer.lock
+
+# Environment
+.env
+.env.local
+config/database.php
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+/tmp/
+/temp/
+*.tmp
+
+# Backups
+*.backup
+*.bak
+*.old
+
+# Logs
+/var/log/
+*.err.log
+*.out.log
+
+# Node (falls später gebraucht)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Test files
+/test-reports/
+
+# Cache
+cache/
+*.cache
+
+# Session files
+sessions/
+
+# Uploads (optional - je nach Anforderung)
+# uploads/
+# files/
