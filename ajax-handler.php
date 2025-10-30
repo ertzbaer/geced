@@ -4,7 +4,14 @@
  * Gibt nur den Content-Bereich zurück (ohne Header/Sidebar/Footer)
  */
 
-require_once 'config/database.php';
+// Optionales Laden der Datenbank (nur wenn verfügbar)
+if (file_exists('config/database.php')) {
+    try {
+        require_once 'config/database.php';
+    } catch (Exception $e) {
+        // Datenbank nicht verfügbar - fortfahren ohne DB
+    }
+}
 
 // Security: Session prüfen
 session_start();
