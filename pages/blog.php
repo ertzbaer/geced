@@ -17,8 +17,22 @@ try {
     ")->fetchAll();
     
 } catch (Exception $e) {
-    $posts = [];
-    $error = $e->getMessage();
+    // Dummy-Daten wenn DB nicht verfügbar
+    $posts = [
+        [
+            'title' => 'Willkommen zum PHP-Template',
+            'content' => 'Dies ist ein Beispiel-Blog-Post. Das Template verwendet AJAX für schnelles Laden ohne Seiten-Reload.',
+            'author_name' => 'Demo User',
+            'created_at' => date('Y-m-d H:i:s')
+        ],
+        [
+            'title' => 'Dynamisches Content-Loading',
+            'content' => 'Nur der Main-Bereich wird aktualisiert, Header und Sidebar bleiben statisch.',
+            'author_name' => 'Admin',
+            'created_at' => date('Y-m-d H:i:s', strtotime('-1 day'))
+        ]
+    ];
+    $error = null; // Kein Fehler anzeigen, da wir Demo-Daten haben
 }
 ?>
 
