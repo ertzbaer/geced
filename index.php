@@ -87,6 +87,11 @@ session_start();
     ?>
     
     <div class="geex-content">
+        <?php 
+        // Content Header einbinden
+        include 'includes/content-header.php'; 
+        ?>
+        
         <!-- Dieser Bereich wird dynamisch über AJAX geladen -->
         <div id="dynamicContent">
             <!-- Initialer Inhalt wird durch JavaScript geladen -->
