@@ -1,3 +1,4 @@
+            <div class="kanban-inner-main-style">
                 <a href="index.html" class="backto-home-btn"> <i class="uil-arrow-left"></i> Back to Projects</a>
 
                 <!-- kanban between area start -->
@@ -317,4 +318,3 @@
                 </div>
                 <!-- kanban drag and drop area main end -->
             </div>
-
