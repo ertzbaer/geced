@@ -123,7 +123,7 @@
 							<a href="#" data-page="contact" class="geex-sidebar__menu__link page-link">Contact</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="kanban.html" class="geex-sidebar__menu__link page-link">Kanban</a>
+							<a href="#" data-page="kanban" class="geex-sidebar__menu__link page-link">Kanban</a>
 						</li>
 					</ul>
 				</li>
