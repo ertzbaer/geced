@@ -1,4 +1,3 @@
-		<div class="geex-content">
 			<div class="geex-content__section geex-content__error">
 				<div class="geex-content__error__wrapper">
 					<div class="geex-content__error__content">
@@ -12,7 +11,3 @@
 								<li><span class="geex-countdown__seconds"></span>Seconds</li>
 							</ul>
 						</div>
-					</div><!-- .page-content -->
-				</div>
-			</div>
-		</div>
