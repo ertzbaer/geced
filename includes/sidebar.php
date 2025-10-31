@@ -200,34 +200,40 @@
 							<a href="#" data-page="pricing" class="geex-sidebar__menu__link page-link">Pricing</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="testimonial.html" class="geex-sidebar__menu__link page-link">Testimonial</a>
+							<a href="#" data-page="testimonial" class="geex-sidebar__menu__link page-link">Testimonial</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="terms.html" class="geex-sidebar__menu__link page-link">Terms & Conditions</a>
+							<a href="#" data-page="terms" class="geex-sidebar__menu__link page-link">Terms & Conditions</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="signin.html" class="geex-sidebar__menu__link page-link">Sign In</a>
+							<a href="#" data-page="signin" class="geex-sidebar__menu__link page-link">Sign In</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="signup.html" class="geex-sidebar__menu__link page-link">Sign Up</a>
+							<a href="#" data-page="signup" class="geex-sidebar__menu__link page-link">Sign Up</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="forgot-password.html" class="geex-sidebar__menu__link page-link">Forget Password</a>
+							<a href="#" data-page="forgot-password" class="geex-sidebar__menu__link page-link">Forget Password</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="verification.html" class="geex-sidebar__menu__link page-link">Two Step Verification</a>
+							<a href="#" data-page="verification" class="geex-sidebar__menu__link page-link">Two Step Verification</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="error.html" class="geex-sidebar__menu__link page-link">Error</a>
+							<a href="#" data-page="error" class="geex-sidebar__menu__link page-link">Error</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="coming-soon.html" class="geex-sidebar__menu__link page-link">Coming Soon</a>
+							<a href="#" data-page="coming-soon" class="geex-sidebar__menu__link page-link">Coming Soon</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="maintenance.html" class="geex-sidebar__menu__link page-link">Maintenance</a>
+							<a href="#" data-page="maintenance" class="geex-sidebar__menu__link page-link">Maintenance</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="blank.html" class="geex-sidebar__menu__link page-link">Blank Page</a>
+							<a href="#" data-page="blank" class="geex-sidebar__menu__link page-link">Blank Page</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="welcome" class="geex-sidebar__menu__link page-link">Welcome</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="pages-overview" class="geex-sidebar__menu__link page-link">Pages Overview</a>
 						</li>
 					</ul>
 				</li>
