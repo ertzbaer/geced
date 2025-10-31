@@ -53,3 +53,7 @@ sessions/
 # Uploads (optional - je nach Anforderung)
 # uploads/
 # files/
+-e 
+# Environment files
+*.env
+*.env.*
