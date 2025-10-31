@@ -1,4 +1,3 @@
-	<main class="geex-content">
 		<div class="geex-content__authentication">
 			<div class="geex-content__authentication__content">
 				<div class="geex-content__authentication__content__wrapper">
@@ -45,9 +44,3 @@
 						</div>
 					</form>
 				</div>
-			</div>	
-			<div class="geex-content__authentication__img">
-				<img src="./assets/img/authentication.svg" alt="">
-			</div>
-		</div>
-	</main>

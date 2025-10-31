@@ -1,4 +1,3 @@
-	<main class="geex-content">
 		<div class="geex-content__authentication">
 			<div class="geex-content__authentication__content">
 				<div class="geex-content__authentication__content__wrapper">
@@ -57,3 +56,4 @@
 			</div>
 		</div>
 	</main>
+
