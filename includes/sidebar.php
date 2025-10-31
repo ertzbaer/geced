@@ -167,7 +167,7 @@
 							<a href="#" data-page="icon" class="geex-sidebar__menu__link page-link">Icon</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="navigation.html" class="geex-sidebar__menu__link page-link">Navigation</a>
+							<a href="#" data-page="navigation" class="geex-sidebar__menu__link page-link">Navigation</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
 							<a href="typography.html" class="geex-sidebar__menu__link page-link">Typography</a>
