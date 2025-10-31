@@ -155,7 +155,7 @@
 							<a href="#" data-page="button" class="geex-sidebar__menu__link page-link">Button</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="color.html" class="geex-sidebar__menu__link page-link">Color</a>
+							<a href="#" data-page="color" class="geex-sidebar__menu__link page-link">Color</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
 							<a href="#" data-page="table" class="geex-sidebar__menu__link page-link">Table</a>
