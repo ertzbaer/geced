@@ -164,7 +164,7 @@
 							<a href="#" data-page="form" class="geex-sidebar__menu__link page-link">Form</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="icon.html" class="geex-sidebar__menu__link page-link">Icon</a>
+							<a href="#" data-page="icon" class="geex-sidebar__menu__link page-link">Icon</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
 							<a href="navigation.html" class="geex-sidebar__menu__link page-link">Navigation</a>
