@@ -30,6 +30,15 @@
 							<a href="#" data-page="dashboard" class="geex-sidebar__menu__link page-link">Server Management</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="index-2" class="geex-sidebar__menu__link page-link">Banking Dashboard</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="index-3" class="geex-sidebar__menu__link page-link">Crypto Dashboard</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
+							<a href="#" data-page="index-4" class="geex-sidebar__menu__link page-link">Invoicing Dashboard</a>
+						</li>
+						<li class="geex-sidebar__menu__item">
 							<a href="#" data-page="banking" class="geex-sidebar__menu__link page-link">Banking</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
