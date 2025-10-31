@@ -152,7 +152,7 @@
 							<a href="#" data-page="badge" class="geex-sidebar__menu__link page-link">Badge</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
-							<a href="button.html" class="geex-sidebar__menu__link page-link">Button</a>
+							<a href="#" data-page="button" class="geex-sidebar__menu__link page-link">Button</a>
 						</li>
 						<li class="geex-sidebar__menu__item">
 							<a href="color.html" class="geex-sidebar__menu__link page-link">Color</a>
